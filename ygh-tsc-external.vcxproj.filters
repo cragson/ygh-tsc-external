@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="files\osmium">
+      <UniqueIdentifier>{2263c89b-6cf2-46f8-99a1-d0ba2220b6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\mgba">
+      <UniqueIdentifier>{8612b474-b012-4813-ad87-7c9d7600aae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\features">
+      <UniqueIdentifier>{9d560056-cef1-4abb-a99e-eb1d12e7c679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Hook\hook.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x64\image_x64.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x86\image_x86.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Overlay\overlay.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Process\process.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_cheat.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_overlay.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="ygh_cheat.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="mgba-api\mgba-api\mgba_api.cpp">
+      <Filter>files\mgba</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_enemy_lp.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_money.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_deck_capacity.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_unlock_cards.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osmium\Cheat\cheat.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\custom_data_types.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Cheat\Feature\feature.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Hook\hook.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x64\image_x64.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x86\image_x86.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\modules.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Overlay\overlay.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Process\process.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\RegisterDumper\registercontext.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\SharedMemoryInstance\sharedmemoryinstance.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_cheat.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_overlay.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="ygh_cheat.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="mgba-api\mgba-api\mgba_api.hpp">
+      <Filter>files\mgba</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_enemy_lp.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_money.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_deck_capacity.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_unlock_cards.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mgba-api\mgba-api\mgba-api.lua">
+      <Filter>files\mgba</Filter>
+    </None>
+  </ItemGroup>
+</Project>

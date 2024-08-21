@@ -1,0 +1,6 @@
+[submodule "osmium"]
+	path = osmium
+	url = https://github.com/cragson/osmium.git
+[submodule "mgba-api"]
+	path = mgba-api
+	url = https://github.com/cragson/mgba-api.git
